@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac 磁盘排查与清理"
+  short_description: "盘点磁盘空间与应用残留，审核后清理并保存可追溯的维护记录"
+  default_prompt: "使用 $mac-disk-cleanup 先只读排查我的 Mac 磁盘占用和旧应用残留，列出候选让我审核。"
