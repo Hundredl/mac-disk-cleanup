@@ -1,5 +1,7 @@
 # Mac 磁盘排查与清理助手
 
+简体中文 | [English](README.en.md)
+
 一个用于 Codex 等本机 AI 助手的 skill：盘点磁盘与应用残留，让用户审核，再按批准范围清理，保存可追溯的维护记录。
 
 适合“电脑有点慢，磁盘是不是太满了”“有哪些旧应用和文件可以清”“清理后某个功能异常，查查改了哪里”。可只排查，也可接着执行已经批准的项目。
@@ -30,9 +32,12 @@ git clone https://github.com/Hundredl/mac-disk-cleanup.git "${CODEX_HOME:-$HOME/
 
 你也可以直接让助手读取仓库里的 [SKILL.md](SKILL.md)。其他支持 SKILL.md 的助手可按各自安装方式使用。
 
+英文使用者可看 [English README](README.en.md) 和 [English skill guide](SKILL.en.md)。`SKILL.md` 保持统一入口，会按用户语言选择指南，无需安装两份 skill。
+
 ## 文件
 
 - [SKILL.md](SKILL.md)：主流程与范围规则。
+- [SKILL.en.md](SKILL.en.md)：完整英文指南。
 - [盘点注意事项](references/inspection.md)：空间口径、候选证据和权限边界。
 - [执行与记录](references/execution-record.md)：逐项日志、核验、备份状态与故障归因。
 - `agents/openai.yaml`：Codex 的名称、简介和示例调用。

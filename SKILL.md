@@ -1,9 +1,11 @@
 ---
 name: mac-disk-cleanup
-description: "排查 macOS 磁盘占用、旧应用与卸载残留，按用户审核的范围清理，并保存可追溯的维护记录。适用于磁盘空间不足、查找可清项目、审核卸载候选和追查清理后异常；支持仅排查模式。"
+description: "排查 macOS 磁盘占用、旧应用与卸载残留，按用户审核的范围清理，并保存可追溯的维护记录；支持仅排查模式。Audit macOS disk usage, old applications and uninstall leftovers; clean user-approved items and keep traceable maintenance records. Use for low disk space, cleanup candidate reviews and investigating problems after cleanup. Supports read-only inspection and Chinese or English."
 ---
 
 # Mac 磁盘排查与清理
+
+用用户当前语言沟通。英文任务读取 [English skill guide](SKILL.en.md)，使用其中的流程和英文参考文档；中文任务使用本文件。语言选择不改变已有授权或保留决定。其他语言也按用户要求表达，采用本文件或英文指南的相同流程。
 
 把候选、授权、实际执行和真实空间变化分别记录，让用户能判断该删什么，并在后续异常时找到相关改动。使用本机终端、系统工具或应用自身的清理功能；没有本机访问能力时说明限制，不把建议写成已完成操作。
 
